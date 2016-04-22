@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DD72A7D1CCA233B00DF44FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72A7C1CCA233B00DF44FD /* main.m */; };
+		9DD72A801CCA233B00DF44FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72A7F1CCA233B00DF44FD /* AppDelegate.m */; };
+		9DD72A861CCA233B00DF44FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD72A841CCA233B00DF44FD /* Main.storyboard */; };
+		9DD72A881CCA233B00DF44FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DD72A871CCA233B00DF44FD /* Assets.xcassets */; };
+		9DD72A8B1CCA233B00DF44FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DD72A891CCA233B00DF44FD /* LaunchScreen.storyboard */; };
+		9DD72A971CCA238400DF44FD /* UITableView+Ado.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72A961CCA238400DF44FD /* UITableView+Ado.m */; };
+		9DD72A9D1CCA25FC00DF44FD /* AdoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72A9C1CCA25FC00DF44FD /* AdoTableViewCell.m */; };
+		9DD72AA01CCA262800DF44FD /* AdoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72A9F1CCA262800DF44FD /* AdoTableViewController.m */; };
+		9DD72AA31CCA268100DF44FD /* AdoTableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AA21CCA268100DF44FD /* AdoTableViewHeaderFooterView.m */; };
+		9DD72AC21CCA591300DF44FD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DD72AA81CCA591300DF44FD /* Info.plist */; };
+		9DD72AC31CCA591300DF44FD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AAA1CCA591300DF44FD /* MASCompositeConstraint.m */; };
+		9DD72AC41CCA591300DF44FD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AAD1CCA591300DF44FD /* MASConstraint.m */; };
+		9DD72AC51CCA591300DF44FD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AAF1CCA591300DF44FD /* MASConstraintMaker.m */; };
+		9DD72AC61CCA591300DF44FD /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AB11CCA591300DF44FD /* MASLayoutConstraint.m */; };
+		9DD72AC71CCA591300DF44FD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AB51CCA591300DF44FD /* MASViewAttribute.m */; };
+		9DD72AC81CCA591300DF44FD /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AB71CCA591300DF44FD /* MASViewConstraint.m */; };
+		9DD72AC91CCA591300DF44FD /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AB91CCA591300DF44FD /* NSArray+MASAdditions.m */; };
+		9DD72ACA1CCA591300DF44FD /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72ABC1CCA591300DF44FD /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		9DD72ACB1CCA591300DF44FD /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72ABE1CCA591300DF44FD /* View+MASAdditions.m */; };
+		9DD72ACC1CCA591300DF44FD /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD72AC11CCA591300DF44FD /* ViewController+MASAdditions.m */; };
+		9DD72ACE1CCA59BB00DF44FD /* 2016-04-22 10_51_04.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9DD72ACD1CCA59BB00DF44FD /* 2016-04-22 10_51_04.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DD72A781CCA233B00DF44FD /* AdoHideTableSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdoHideTableSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD72A7C1CCA233B00DF44FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DD72A7E1CCA233B00DF44FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DD72A7F1CCA233B00DF44FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DD72A851CCA233B00DF44FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DD72A871CCA233B00DF44FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DD72A8A1CCA233B00DF44FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DD72A8C1CCA233B00DF44FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD72A951CCA238400DF44FD /* UITableView+Ado.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Ado.h"; sourceTree = "<group>"; };
+		9DD72A961CCA238400DF44FD /* UITableView+Ado.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Ado.m"; sourceTree = "<group>"; };
+		9DD72A9B1CCA25FC00DF44FD /* AdoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdoTableViewCell.h; sourceTree = "<group>"; };
+		9DD72A9C1CCA25FC00DF44FD /* AdoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdoTableViewCell.m; sourceTree = "<group>"; };
+		9DD72A9E1CCA262800DF44FD /* AdoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdoTableViewController.h; sourceTree = "<group>"; };
+		9DD72A9F1CCA262800DF44FD /* AdoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdoTableViewController.m; sourceTree = "<group>"; };
+		9DD72AA11CCA268100DF44FD /* AdoTableViewHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdoTableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		9DD72AA21CCA268100DF44FD /* AdoTableViewHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdoTableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		9DD72AA81CCA591300DF44FD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DD72AA91CCA591300DF44FD /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9DD72AAA1CCA591300DF44FD /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		9DD72AAB1CCA591300DF44FD /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		9DD72AAC1CCA591300DF44FD /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		9DD72AAD1CCA591300DF44FD /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		9DD72AAE1CCA591300DF44FD /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		9DD72AAF1CCA591300DF44FD /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		9DD72AB01CCA591300DF44FD /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		9DD72AB11CCA591300DF44FD /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		9DD72AB21CCA591300DF44FD /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		9DD72AB31CCA591300DF44FD /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		9DD72AB41CCA591300DF44FD /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		9DD72AB51CCA591300DF44FD /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		9DD72AB61CCA591300DF44FD /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		9DD72AB71CCA591300DF44FD /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		9DD72AB81CCA591300DF44FD /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		9DD72AB91CCA591300DF44FD /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9DD72ABA1CCA591300DF44FD /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9DD72ABB1CCA591300DF44FD /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9DD72ABC1CCA591300DF44FD /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9DD72ABD1CCA591300DF44FD /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		9DD72ABE1CCA591300DF44FD /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		9DD72ABF1CCA591300DF44FD /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9DD72AC01CCA591300DF44FD /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		9DD72AC11CCA591300DF44FD /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		9DD72ACD1CCA59BB00DF44FD /* 2016-04-22 10_51_04.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2016-04-22 10_51_04.gif"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DD72A751CCA233B00DF44FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DD72A6F1CCA233B00DF44FD = {
+			isa = PBXGroup;
+			children = (
+				9DD72A941CCA235800DF44FD /* File */,
+				9DD72A7A1CCA233B00DF44FD /* AdoHideTableSection */,
+				9DD72A791CCA233B00DF44FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DD72A791CCA233B00DF44FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DD72A781CCA233B00DF44FD /* AdoHideTableSection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DD72A7A1CCA233B00DF44FD /* AdoHideTableSection */ = {
+			isa = PBXGroup;
+			children = (
+				9DD72A7E1CCA233B00DF44FD /* AppDelegate.h */,
+				9DD72A7F1CCA233B00DF44FD /* AppDelegate.m */,
+				9DD72A9E1CCA262800DF44FD /* AdoTableViewController.h */,
+				9DD72A9F1CCA262800DF44FD /* AdoTableViewController.m */,
+				9DD72A9B1CCA25FC00DF44FD /* AdoTableViewCell.h */,
+				9DD72A9C1CCA25FC00DF44FD /* AdoTableViewCell.m */,
+				9DD72AA11CCA268100DF44FD /* AdoTableViewHeaderFooterView.h */,
+				9DD72AA21CCA268100DF44FD /* AdoTableViewHeaderFooterView.m */,
+				9DD72ACD1CCA59BB00DF44FD /* 2016-04-22 10_51_04.gif */,
+				9DD72A841CCA233B00DF44FD /* Main.storyboard */,
+				9DD72A871CCA233B00DF44FD /* Assets.xcassets */,
+				9DD72A891CCA233B00DF44FD /* LaunchScreen.storyboard */,
+				9DD72A8C1CCA233B00DF44FD /* Info.plist */,
+				9DD72A7B1CCA233B00DF44FD /* Supporting Files */,
+			);
+			path = AdoHideTableSection;
+			sourceTree = "<group>";
+		};
+		9DD72A7B1CCA233B00DF44FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DD72A7C1CCA233B00DF44FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DD72A941CCA235800DF44FD /* File */ = {
+			isa = PBXGroup;
+			children = (
+				9DD72AA71CCA591300DF44FD /* Masonry */,
+				9DD72A951CCA238400DF44FD /* UITableView+Ado.h */,
+				9DD72A961CCA238400DF44FD /* UITableView+Ado.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		9DD72AA71CCA591300DF44FD /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				9DD72AA81CCA591300DF44FD /* Info.plist */,
+				9DD72AA91CCA591300DF44FD /* MASCompositeConstraint.h */,
+				9DD72AAA1CCA591300DF44FD /* MASCompositeConstraint.m */,
+				9DD72AAB1CCA591300DF44FD /* MASConstraint+Private.h */,
+				9DD72AAC1CCA591300DF44FD /* MASConstraint.h */,
+				9DD72AAD1CCA591300DF44FD /* MASConstraint.m */,
+				9DD72AAE1CCA591300DF44FD /* MASConstraintMaker.h */,
+				9DD72AAF1CCA591300DF44FD /* MASConstraintMaker.m */,
+				9DD72AB01CCA591300DF44FD /* MASLayoutConstraint.h */,
+				9DD72AB11CCA591300DF44FD /* MASLayoutConstraint.m */,
+				9DD72AB21CCA591300DF44FD /* Masonry.h */,
+				9DD72AB31CCA591300DF44FD /* MASUtilities.h */,
+				9DD72AB41CCA591300DF44FD /* MASViewAttribute.h */,
+				9DD72AB51CCA591300DF44FD /* MASViewAttribute.m */,
+				9DD72AB61CCA591300DF44FD /* MASViewConstraint.h */,
+				9DD72AB71CCA591300DF44FD /* MASViewConstraint.m */,
+				9DD72AB81CCA591300DF44FD /* NSArray+MASAdditions.h */,
+				9DD72AB91CCA591300DF44FD /* NSArray+MASAdditions.m */,
+				9DD72ABA1CCA591300DF44FD /* NSArray+MASShorthandAdditions.h */,
+				9DD72ABB1CCA591300DF44FD /* NSLayoutConstraint+MASDebugAdditions.h */,
+				9DD72ABC1CCA591300DF44FD /* NSLayoutConstraint+MASDebugAdditions.m */,
+				9DD72ABD1CCA591300DF44FD /* View+MASAdditions.h */,
+				9DD72ABE1CCA591300DF44FD /* View+MASAdditions.m */,
+				9DD72ABF1CCA591300DF44FD /* View+MASShorthandAdditions.h */,
+				9DD72AC01CCA591300DF44FD /* ViewController+MASAdditions.h */,
+				9DD72AC11CCA591300DF44FD /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DD72A771CCA233B00DF44FD /* AdoHideTableSection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DD72A8F1CCA233B00DF44FD /* Build configuration list for PBXNativeTarget "AdoHideTableSection" */;
+			buildPhases = (
+				9DD72A741CCA233B00DF44FD /* Sources */,
+				9DD72A751CCA233B00DF44FD /* Frameworks */,
+				9DD72A761CCA233B00DF44FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdoHideTableSection;
+			productName = AdoHideTableSection;
+			productReference = 9DD72A781CCA233B00DF44FD /* AdoHideTableSection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DD72A701CCA233B00DF44FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Nododo;
+				TargetAttributes = {
+					9DD72A771CCA233B00DF44FD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8BN3CYU4KF;
+					};
+				};
+			};
+			buildConfigurationList = 9DD72A731CCA233B00DF44FD /* Build configuration list for PBXProject "AdoHideTableSection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DD72A6F1CCA233B00DF44FD;
+			productRefGroup = 9DD72A791CCA233B00DF44FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DD72A771CCA233B00DF44FD /* AdoHideTableSection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DD72A761CCA233B00DF44FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD72AC21CCA591300DF44FD /* Info.plist in Resources */,
+				9DD72ACE1CCA59BB00DF44FD /* 2016-04-22 10_51_04.gif in Resources */,
+				9DD72A8B1CCA233B00DF44FD /* LaunchScreen.storyboard in Resources */,
+				9DD72A881CCA233B00DF44FD /* Assets.xcassets in Resources */,
+				9DD72A861CCA233B00DF44FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DD72A741CCA233B00DF44FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DD72AC41CCA591300DF44FD /* MASConstraint.m in Sources */,
+				9DD72AC71CCA591300DF44FD /* MASViewAttribute.m in Sources */,
+				9DD72ACC1CCA591300DF44FD /* ViewController+MASAdditions.m in Sources */,
+				9DD72AC91CCA591300DF44FD /* NSArray+MASAdditions.m in Sources */,
+				9DD72AA01CCA262800DF44FD /* AdoTableViewController.m in Sources */,
+				9DD72AC81CCA591300DF44FD /* MASViewConstraint.m in Sources */,
+				9DD72AC61CCA591300DF44FD /* MASLayoutConstraint.m in Sources */,
+				9DD72AA31CCA268100DF44FD /* AdoTableViewHeaderFooterView.m in Sources */,
+				9DD72A9D1CCA25FC00DF44FD /* AdoTableViewCell.m in Sources */,
+				9DD72ACB1CCA591300DF44FD /* View+MASAdditions.m in Sources */,
+				9DD72AC31CCA591300DF44FD /* MASCompositeConstraint.m in Sources */,
+				9DD72ACA1CCA591300DF44FD /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				9DD72AC51CCA591300DF44FD /* MASConstraintMaker.m in Sources */,
+				9DD72A971CCA238400DF44FD /* UITableView+Ado.m in Sources */,
+				9DD72A801CCA233B00DF44FD /* AppDelegate.m in Sources */,
+				9DD72A7D1CCA233B00DF44FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DD72A841CCA233B00DF44FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD72A851CCA233B00DF44FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DD72A891CCA233B00DF44FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DD72A8A1CCA233B00DF44FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DD72A8D1CCA233B00DF44FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DD72A8E1CCA233B00DF44FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DD72A901CCA233B00DF44FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdoHideTableSection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nododo.com.AdoHideTableSection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DD72A911CCA233B00DF44FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdoHideTableSection/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nododo.com.AdoHideTableSection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DD72A731CCA233B00DF44FD /* Build configuration list for PBXProject "AdoHideTableSection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD72A8D1CCA233B00DF44FD /* Debug */,
+				9DD72A8E1CCA233B00DF44FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DD72A8F1CCA233B00DF44FD /* Build configuration list for PBXNativeTarget "AdoHideTableSection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DD72A901CCA233B00DF44FD /* Debug */,
+				9DD72A911CCA233B00DF44FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DD72A701CCA233B00DF44FD /* Project object */;
+}
