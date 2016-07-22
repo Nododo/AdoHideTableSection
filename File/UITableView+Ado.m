@@ -15,12 +15,22 @@ const char adoDefaultCellHeigtKey;
 @implementation UITableView (Ado)
 
 - (void)ado_hideSection:(NSInteger)section {
+    [self ado_hideSection:section completHandler:nil];
+}
+
+- (void)ado_hideSection:(NSInteger)section completHandler:(AdoCompletHandler)completHandler {
+    BOOL isHided;
     if ([self.ado_hideSections containsIndex:section]) {
         [self.ado_hideSections removeIndex:section];
+        isHided = NO;
     } else {
         [self.ado_hideSections addIndex:section];
+        isHided = YES;
     }
     [self reloadSections:[NSIndexSet indexSetWithIndex:section] withRowAnimation:UITableViewRowAnimationFade];
+    if (completHandler) {
+        completHandler(section, isHided);
+    }
 }
 
 - (NSMutableIndexSet *)ado_hideSections {

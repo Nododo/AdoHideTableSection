@@ -43,7 +43,10 @@
 
 - (void)tapSection:(UIControl *)control {
     UITableView *superView = (UITableView *)self.superview;
-    [superView ado_hideSection:self.headerSection];
+    [superView ado_hideSection:self.headerSection completHandler:^(NSInteger section, BOOL isHided) {
+        NSLog(@"%ld----%d",section,isHided);
+    }];
+//    [superView ado_hideSection:self.headerSection];
 }
 
 @end
