@@ -1,6 +1,8 @@
 # AdoHideTableSection
 An easy way to hide or show section in a tableview
-##NOTE:请记得把自定义cell的clipToBounds设置为YES，这样才不会让cell的内容“露”出来。。。
+##NOTE:
+###Version 0.2 添加block用来处理隐藏section之后的事件
+###请记得把自定义cell的clipToBounds设置为YES，这样才不会让cell的内容“露”出来。。。
 ###传统的删除UITableView的section，往往是通过删除数据源,然后reloadSections的方法完成。但是如果想隐藏、显示多个section的时候,重复的addObject和removeObject并附带各种逻辑判断，是不是整个人都不开心了。
 ###就像完成下面的功能：（gif中的内容涉及公司车型数据库，就不拿出来献丑了。demo中的颜色搭配，请大家忍耐下吧~）
 ![](https://github.com/Nododo/AdoHideTableSection/blob/master/AdoHideTableSection/2016-04-22%2010_51_04.gif)
