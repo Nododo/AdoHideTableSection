@@ -54,7 +54,7 @@ const char adoDefaultCellHeigtKey;
     if ([self.ado_hideSections containsIndex:section]) {
         return 0;
     } else {
-        NSAssert(self.ado_defaultCellHeigt != 0, @"must give a defautl height for cell by ado_defaultCellHeigt");
+        NSAssert(self.ado_defaultCellHeigt != 0, @"must give a default height for cell by ado_defaultCellHeight");
         return self.ado_defaultCellHeigt;
     }
 }

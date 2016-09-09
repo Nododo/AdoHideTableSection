@@ -8,7 +8,6 @@
 
 #import "AdoTableViewHeaderFooterView.h"
 #import "UITableView+Ado.h"
-#import "Masonry.h"
 
 @interface AdoTableViewHeaderFooterView ()
 
@@ -35,9 +34,13 @@
 }
 
 - (void)layoutSubviews {
-    [self.tapControl mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self.contentView);
-    }];
+   
+//    [self.tapControl mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.edges.equalTo(self.contentView);
+//    }];
+    
+    // if you don't use masonry
+    self.tapControl.frame = self.bounds;
     [super layoutSubviews];
 }
 
